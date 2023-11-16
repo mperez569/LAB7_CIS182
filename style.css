@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0 auto;
+    border: solid 5px blue;
+    width: 650px
+}
+
+
+#display_panel{
+    width: 300px;
+    overflow: hidden;
+    float: left;
+    height: 125px;
+}
+
+#image_list{
+    width: 900px;
+    left: 0;
+    list-style: none;
+    position: relative;
+}
+
+#image_list li{
+    width: 100px;
+    float: left;
+}
+
+#image_list li img{
+    width: 95px;
+
+}
+
+.button_panel{
+    height: 125px;
+    padding: 50px 15px;
+    float: left;
+}
+
+.button_panel img{
+    width: 25px;
+    height: 25px;
+}
+
+#image{
+    height: 250px;
+    margin-bottom: 1em;
+    margin-left: 105px;
+}
